@@ -202,6 +202,10 @@ article p {
 
 
 @media (min-width: 321px) and (max-width: 768px) {
+    html {
+        width: 768px;
+    }
+    
     body {
         max-width: 608px;
     }
@@ -247,6 +251,10 @@ article p {
 }
 
 @media (max-width: 320px) {
+    html {
+        width: 320px;
+    }
+    
     body {
         max-width: 288px;
     }
