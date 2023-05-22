@@ -10,7 +10,6 @@
 
 html {
     width: 1600px;
-
 }
 
 body {
@@ -24,7 +23,6 @@ body {
     border: 1px solid #DCE2E8;
     padding: 48px;
     font-family: Roboto;
-
 }
 
 .header__title {
@@ -47,7 +45,6 @@ body {
     line-height: 44px;
     color: var(--color-title-dark);
     margin: 15px 0 40px 0;
-
 }
 
 .header__title img {
@@ -212,7 +209,7 @@ article p {
     
     h1 {
         font-size: 24px;
-        line-height: 28px;
+        line-height: 28px;    
     }
 
     h2 {
@@ -255,6 +252,10 @@ article p {
         width: 320px;
     }
     
+    .header__title{
+        flex-wrap: wrap;
+    }
+
     body {
         max-width: 288px;
     }
